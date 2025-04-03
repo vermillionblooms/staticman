@@ -1,0 +1,8 @@
+comments:
+  allowedFields: ["name", "email", "message"]
+  branch: "main"  # Change this if your main branch has a different name
+  commitMessage: "New comment added"
+  filename: "comment-{@timestamp}"
+  format: "yaml"
+  moderation: true
+  path: "comments"
